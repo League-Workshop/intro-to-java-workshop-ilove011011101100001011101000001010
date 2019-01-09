@@ -10,6 +10,8 @@ public class FlamingNinjaStar {
 		int flameSize = 200;		//the length of the flaming arms
 		
 		// 1. Make a new robot, and set it's pen down.
+Robot lilbapoo= new Robot();
+lilbapoo.penDown();
 
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
 		
@@ -17,15 +19,22 @@ public class FlamingNinjaStar {
 
 		// 12. Set the robot speed to 100
 
+
 		// 13. Use a for loop to repeat all of the code below 25 times
 
 			// 2. Turn the robot 1/8 of a circle
+lilbapoo.turn(360/8);
 		
 			// 3. Move the robot 64 pixels
+lilbapoo.move(64);
 
 			// 4. Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
+lilbapoo.turn(-40);
+
 			
 			// 5. Move the robot the distance in the variable flameSize
+lilbapoo.move(flameSize);
+
 			
 			// 6. Turn the robot 170 degrees
 			
